@@ -1,5 +1,12 @@
 .box{
-    width: 500px;
-    height: 200px;
-    background: radial-gradient( circle at top left,white, pink);
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    border:1px dotted violet;
+    border-top: 10px dotted green;
+    border-right: 10px solid orange;
+    border-bottom: 10px dotted green;
+    border-left: 10px solid orange;
+    border-width: 10px 30px 10px 30px ;
+    border-radius: 100px;
 }
