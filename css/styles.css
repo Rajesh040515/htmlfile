@@ -7,3 +7,7 @@ p{
 color: blue;
 
 }
+a[href="https://google.com"]
+{
+    color:blue
+}
