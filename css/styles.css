@@ -2,15 +2,12 @@ body{
     margin: 10px;
 }
 
-.first-letter{
-
-    font-size: 50;
-    font-weight:bold ;
+h1{
+    color:peru;
 }
-p::selection{
-    background-color: orchid;
+.highlight #product{
+    color: purple;
 }
-p::before{
-    content: "...";
-    display: block;
+#product{
+    color: red;
 }
