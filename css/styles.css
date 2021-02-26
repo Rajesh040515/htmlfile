@@ -1,5 +1,5 @@
 .box{
     width: 200px;
     height: 200px;
-    background-color:hsla(44, 39%, 54%,0.9);
+    background: linear-gradient( to right ,green,orange);
 }
