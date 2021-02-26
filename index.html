@@ -2,26 +2,56 @@
 
 <head>
     <style>
-        ul {
+        table,
+        td,
+        th {
 
-            list-style-type: disc;
+            border: 1px solid green;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        tfoot {
+
+            text-align: left;
+
         }
     </style>
 </head>
 
 <body>
-    <ul>
-        <li>about</li>
-        <li>cources</li>
-        <ul>
-            <li>html</li>
-            <li>java</li>
-            <li>ai</li>
-        </ul>
-        <li>subscribe</li>
-        <li>contact me</li>
 
-    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Expanses</th>
+            </tr>
+            <tr>
+                <th>category</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marketing</td>
+                <td>$100</td>
+            </tr>
+
+            <tr>
+                <td>Accounting</td>
+                <td>$200</td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total</th>
+                <th>$300</th>
+            </tr>
+        </tfoot>
+    </table>
+
+
 </body>
 
 </html>
