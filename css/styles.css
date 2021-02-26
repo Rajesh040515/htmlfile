@@ -1,8 +1,5 @@
-p{
-    color: blue;
-    border: 1px solid black;
-}
-strong{
-    color: black;
-    border:inherit;
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:hsla(44, 39%, 54%,0.9);
 }
