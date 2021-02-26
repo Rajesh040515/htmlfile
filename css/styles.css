@@ -2,11 +2,9 @@
     width: 100px;
     height: 100px;
     background: lightblue;
-    border:1px dotted violet;
-    border-top: 10px dotted green;
-    border-right: 10px solid orange;
-    border-bottom: 10px dotted green;
-    border-left: 10px solid orange;
-    border-width: 10px 30px 10px 30px ;
-    border-radius: 100px;
+box-shadow: 10px 30px 50px red;
+}
+h1{
+    color: white;
+    text-shadow: 10px 10px 20px green;
 }
