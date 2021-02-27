@@ -1,14 +1,4 @@
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 10px;
-}
 
-.box::after{
-
-    content: "hii";
-}
 .box{
 
 
@@ -18,5 +8,6 @@ height: 100px;
 background-color:rosybrown;
 box-sizing: border-box;
 display: inline-block;
+overflow:   auto;
 
 }
