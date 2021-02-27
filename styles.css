@@ -1,5 +1,22 @@
-p{
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+}
 
-color: blue;
+.box::after{
+
+    content: "hii";
+}
+.box{
+
+
+
+width:100px;
+height: 100px;
+background-color:rosybrown;
+box-sizing: border-box;
+display: inline-block;
 
 }
