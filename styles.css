@@ -1,11 +1,28 @@
-body{
-    margin: 10px;
+.boxes{
+    border: 3px solid purple;
+    position: relative;
 }
-.box{
-font-size: 20px;
-width:100vw;
-height: 100vh;
-background-color:khaki;
-border-top:3px solid darkorchid;
+.box {
+
+width:100px;
+height: 100px;
+
 
 }
+  .box-one{
+      background-color: sandybrown;
+  }
+  .box-two{
+      background-color: thistle;
+      position: absolute;
+     right: 0;
+     bottom: 0;
+     left: 2rem;
+     right: 2rem;
+     width: auto;
+        
+z-index: 999999;
+  }
+  .box-three{
+      background-color: violet;
+  }
