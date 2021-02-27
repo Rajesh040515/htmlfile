@@ -1,13 +1,11 @@
-
+body{
+    margin: 10px;
+}
 .box{
-
-
-
-width:100px;
-height: 100px;
-background-color:rosybrown;
-box-sizing: border-box;
-display: inline-block;
-overflow:   auto;
+font-size: 20px;
+width:100vw;
+height: 100vh;
+background-color:khaki;
+border-top:3px solid darkorchid;
 
 }
