@@ -1,4 +1,29 @@
-.first{
+.container{
+    display: flex;
+    flex-direction: column;
     
-    visibility: hidden;
 }
+.box{
+    background: gold;
+    padding:1rem ;
+}
+.box:nth-of-type(2){
+    background: hotpink;
+
+}
+@media screen and (min-width: 600px){
+.container{
+    flex-direction: row;
+}
+
+@media screen and (min-width: 900px){
+    .container{
+        flex-direction: row;
+    }
+    .box{
+        background: ivory;
+    }
+}
+}
+
+
