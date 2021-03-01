@@ -1,22 +1,22 @@
-body{
-    margin: 10px;
+.container{
+    border: 3px solid greenyellow;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    align-content:center  ;
+    flex-basis: 10rem;
+    flex-grow: 1rem;
+
 }
-.avatar{
-    width: 5rem;
+.box{
+   width: 5rem;
     height: 5rem;
-    background-color: yellow;
-    float:left;
-    margin-right: 0.5em;
+    background: hotpink;
+    margin: 1rem;
+   
 }
-.clear{
-    clear: both;
-}
-.tweet{
-    border: 3px solid orange;
-    overflow: hidden;
-}
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
+.box-one{
+    flex-grow: 2rem;
 }
