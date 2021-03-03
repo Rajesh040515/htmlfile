@@ -1,11 +1,9 @@
-form{
-   align-content: center;
+
+body{
+    background-color: deeppink;
 }
 
-input [type="text"]{
- 
-   
-}
-button{
-    background-color: rgb(186, 25, 201);
+.myform {
+    background-color: #000;
+    padding: 10px;
 }

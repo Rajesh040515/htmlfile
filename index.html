@@ -1,19 +1,68 @@
 <html>
 
 <head>
-    <title></title>
+
 </head>
 
 <body>
-    <form>
-        <h3>Please sign in</h3>
-        <input type="text" placeholder="name"><br>
-        <input type="email" placeholder="email"><br>
-        <input type="checkbox">
-        <label class="label-inline">Remember me</label><br>
-        <button type="submit">sign in</button>
+    <center>
+        <form style="background-color:#E6E6FA">
+            <fieldset>
 
-    </form>
+                <legend>Personalize</legend>
+
+                <div id="left">
+                    <p>
+                        <label> Name
+                            <input type="text" name="name" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label> Username
+                            <input type="text" name="uname" required>
+                        </label>
+
+
+                    </p>
+
+                    <p>
+                        <label>Gender:<label>
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">male</label>
+
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">female</label><br>
+                                <label for="email">Email</label>
+                                <input type="email" id="email">
+                    </p>
+
+                    <p>
+                        <label for="">Hobbies:</label>
+                        <label for="cricket">cricket:</label>
+                        <input type="checkbox" id="cricket">
+                        <label for="kabbadi">Kabbadi:</label>
+                        <input type="checkbox" id="kabbadi">
+                        <label for="chess">Chess</label>
+                    </p>
+
+                    <p>
+                        <label for="city">City
+                            <select id="city">
+
+                                <option>Ahmedabad</option>
+                                <option>Sanand</option>
+                                <option>gadhinagar</option>
+                                <option>viramgam</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p><button>Submit </button>
+                        <button>Cancel</button>
+                    </p>
+            </fieldset>
+
+        </form>
+    </center>
 </body>
 
 </html>
