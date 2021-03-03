@@ -6,62 +6,79 @@
 
 <body>
     <center>
-        <form style="background-color:#E6E6FA">
+
+        <form style="background-color:#e44ed7">
             <fieldset>
+                <optgroup>Personal Detail:</optgroup>
+                <p <label for=""><strong>Name:</strong>
+                    <input type="text" id="name">
+                    </label>
+                </p>
+                <p>
+                    <label for="uname"><strong>Uname:</strong>
+                        <input type="text" id="uname">
+                    </label>
+                </p>
 
-                <legend>Personalize</legend>
+                <p>
+                    <label for="email"><strong>Email:</strong>
+                        <input type="email" id="email" required>
+                    </label>
+                </p>
+                <p>
+                    <label for="pwrod"><strong>Password:</strong>
+                        <input type="password" id="pword" maxlength="" required>
+                    </label>
 
-                <div id="left">
-                    <p>
-                        <label> Name
-                            <input type="text" name="name" required>
+
+                </p>
+                <p>
+                    <label><strong>Gender:</strong></label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+
+                </p>
+                <p>
+                    <label for="sub"><strong>Subject:</strong>
+                        <label for="sub1">Python
+                            <input type="checkbox" id="sub1">
                         </label>
-                    </p>
-                    <p>
-                        <label> Username
-                            <input type="text" name="uname" required>
+
+
+                        <label for="sub2">.net
+                            <input type="checkbox" id="sub2">
                         </label>
 
 
-                    </p>
-
-                    <p>
-                        <label>Gender:<label>
-                                <input type="radio" name="gender" id="male">
-                                <label for="male">male</label>
-
-                                <input type="radio" name="gender" id="female">
-                                <label for="female">female</label><br>
-                                <label for="email">Email</label>
-                                <input type="email" id="email">
-                    </p>
-
-                    <p>
-                        <label for="">Hobbies:</label>
-                        <label for="cricket">cricket:</label>
-                        <input type="checkbox" id="cricket">
-                        <label for="kabbadi">Kabbadi:</label>
-                        <input type="checkbox" id="kabbadi">
-                        <label for="chess">Chess</label>
-                    </p>
-
-                    <p>
-                        <label for="city">City
-                            <select id="city">
-
-                                <option>Ahmedabad</option>
-                                <option>Sanand</option>
-                                <option>gadhinagar</option>
-                                <option>viramgam</option>
-                            </select>
+                        <label for="sub3">Ai
+                            <input type="checkbox" id="sub3">
                         </label>
-                    </p>
-                    <p><button>Submit </button>
-                        <button>Cancel</button>
-                    </p>
+                    </label>
+                </p>
+                <p>
+                    <label> <strong>Select city:</strong>
+                        <select>
+
+                            <option></option>
+                            <option>Ahmedabad</option>
+                            <option>Sanand</option>
+                            <option>viramgam</option>
+                            <option>Gadhinagar</option>
+
+
+                        </select>
+                    </label>
+                </p>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+
+
             </fieldset>
-
         </form>
+
     </center>
 </body>
 
