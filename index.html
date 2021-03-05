@@ -1,85 +1,49 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <title>first Bootstrap example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <center>
 
-        <form style="background-color:#e44ed7">
-            <fieldset>
-                <optgroup>Personal Detail:</optgroup>
-                <p <label for=""><strong>Name:</strong>
-                    <input type="text" id="name">
-                    </label>
-                </p>
-                <p>
-                    <label for="uname"><strong>Uname:</strong>
-                        <input type="text" id="uname">
-                    </label>
-                </p>
+    <div class="container">
+        <h2>grids in bootstrap extra small device</h2>
+        <div class="row">
+            <div class="col-1 bg-info">one</div>
+            <div class="col-1 bg-danger">two</div>
+            <div class="col-10 bg-warning">three</div>
+        </div>
 
-                <p>
-                    <label for="email"><strong>Email:</strong>
-                        <input type="email" id="email" required>
-                    </label>
-                </p>
-                <p>
-                    <label for="pwrod"><strong>Password:</strong>
-                        <input type="password" id="pword" maxlength="" required>
-                    </label>
+        <h2>Extra large device</h2>
+        <div class="row">
+            <div class="col-xl.9 bg-info">one</div>
+            <div class="col-xl.3 bg-danger">two</div>
 
-
-                </p>
-                <p>
-                    <label><strong>Gender:</strong></label>
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Male</label>
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Female</label><br>
-
-                </p>
-                <p>
-                    <label for="sub"><strong>Subject:</strong>
-                        <label for="sub1">Python
-                            <input type="checkbox" id="sub1">
-                        </label>
+        </div>
+        <h2>grids in bootstrap</h2>
+        <div class="row">
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-info">one</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-warning">two</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-danger">three</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-secondary">four</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-warning">five</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-primary">six</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-danger">seven</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-info">eight</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-primary">nine</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-secondary">ten</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-info">eleven</div>
+            <div class="col-lg.1 col-md.2 col-sm.4 bg-info">twelve</div>
+        </div>
 
 
-                        <label for="sub2">.net
-                            <input type="checkbox" id="sub2">
-                        </label>
-
-
-                        <label for="sub3">Ai
-                            <input type="checkbox" id="sub3">
-                        </label>
-                    </label>
-                </p>
-                <p>
-                    <label> <strong>Select city:</strong>
-                        <select>
-
-                            <option></option>
-                            <option>Ahmedabad</option>
-                            <option>Sanand</option>
-                            <option>viramgam</option>
-                            <option>Gadhinagar</option>
-
-
-                        </select>
-                    </label>
-                </p>
-
-                <button type="submit">Submit</button>
-                <button type="reset">Clear</button>
-
-
-            </fieldset>
-        </form>
-
-    </center>
 </body>
 
 </html>
